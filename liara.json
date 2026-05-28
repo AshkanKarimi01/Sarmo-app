@@ -1,0 +1,11 @@
+{
+  "platform": "docker",
+  "app": "sarmo",
+  "port": 8501,
+  "disks": [
+    {
+      "name": "visitor-data",
+      "mountTo": "/app/data"
+    }
+  ]
+}
